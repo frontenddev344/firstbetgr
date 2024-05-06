@@ -341,6 +341,9 @@ input:focus-visible {
     color: var(--primary);
     font-weight: 600;
 }
+.privacy-wrap {
+    margin-bottom: 20px;
+}
 /* footer section css start here */
 section.site-footer{
     background-color: var(--bg);
