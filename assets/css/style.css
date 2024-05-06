@@ -32,6 +32,7 @@ img{
 .container, .header-con, .drop-box{
     max-width:1320px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .ptb-70{
     padding:70px 0
@@ -73,6 +74,9 @@ p{
     background-color: var(--bg);
 }
 /* header css start here */
+.toggle, .close{
+    display: none;
+}
 .site-logo img {
     width: 300px;
 }
@@ -125,7 +129,16 @@ p{
     cursor: pointer;
 
 }
-
+.banner-wrap img {
+    width: 350px;
+}
+.banner-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* header css end here */
 
 

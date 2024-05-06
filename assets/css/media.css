@@ -1,0 +1,244 @@
+@media(max-width:1400px){
+    .site-logo img, .footer-logo img {
+        width: 250px;
+    }
+    .nav-bar ul li a {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .form-group label {
+        font-size: 16px;
+    }
+    .form-group textarea {
+        height: 220px;
+    }
+    .submit-btn button {
+        font-size: 16px;
+        padding: 10px 35px;
+    }
+    .footer-links ul li a {
+        font-size: 15px;
+    }
+    .copy-right p {
+        font-size: 13px;
+    }
+    .footer-links ul {
+        gap: 15px;
+    }
+    .see-more a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+}
+@media(max-width:1200px){
+    .nav-bar ul li a {
+        font-size: 16px;
+    }
+    .nav-bar ul {
+        gap: 20px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .pt-30 {
+        padding-top: 20px;
+    }
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+    .copy-right p {
+        font-size: 12px;
+    }
+    .footer-links ul {
+        gap: 10px;
+    }
+    .sub-banner {
+        height: 400px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .see-more a {
+        font-size: 16px;
+    }
+    .form-group input {
+        height: 40px;
+    }
+    .form-group textarea {
+        height: 200px;
+    }
+    .submit-btn button {
+        font-size: 14px;
+    }
+}
+@media(max-width:992px){
+    .logo-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .toggle{
+        display: block;
+        font-size: 25px;
+    }
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 100vh;
+        z-index: 99;
+        padding: 30px 10px;
+        transform: translateX(-100%);
+
+    }
+    .menuToggle .nav-bar{
+        transform: translateX(0%);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px -6px 15px;
+}
+    .close{
+        display: block;
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+
+    }
+    .footer-wrap {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-links ul {
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .copy-right p {
+        text-align: center;
+    }
+    .site-logo img {
+        width: 220px;
+    }
+}
+@media(max-width:850px){
+    h3 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .sub-banner {
+        height: 350px;
+    }
+    .sub-banner {
+        height: 400px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    .casino-wrap .welcome-txt {
+        padding: 30px 0;
+    }
+   
+}
+
+@media(max-width:767px){
+    .contact-main .row {
+        flex-direction: column-reverse;
+    }
+    .contact-box .row{
+        flex-direction: column;
+    }
+    .contact-box{
+        margin-bottom: 50px;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right {
+        width: 100%;
+    }
+    .welcome-img-1 img {
+        height: 300px;
+    }
+    .casino-wrap:nth-child(2) .row, .casino-wrap:nth-child(4) .row, .casino-wrap:nth-child(6) .row{
+        flex-direction: column-reverse;
+    }
+    .welcome-imgs {
+        gap: 10px;
+    }
+    .casino-wrap .welcome-img-1 img {
+        height: 250px;
+    }
+    .casino-wrap {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:575px){
+    h2 {
+        font-size: 28px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sub-banner {
+        height: 350px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .sub-img {
+        height: 250px;
+    }
+    .casino-wrap .welcome-img-1 img {
+        height: 200px;
+    }
+    .see-more a {
+        font-size: 14px;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+    .site-logo img {
+        width: 180px;
+    }
+.footer-logo img {
+        width: 220px;
+    }
+    
+    .form-group label {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .site-banner {
+        height: 60vh;
+    }
+}
