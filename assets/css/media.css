@@ -242,3 +242,9 @@
         height: 60vh;
     }
 }
+@media(min-width:1500px){
+    .banner-wrap img {
+        width: 350px;
+        height: auto;
+    }
+}

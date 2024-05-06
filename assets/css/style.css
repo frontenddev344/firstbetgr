@@ -130,7 +130,8 @@ p{
 
 }
 .banner-wrap img {
-    width: 350px;
+    width: auto;
+    height: 55vh;
 }
 .banner-wrap{
     height: 100%;
