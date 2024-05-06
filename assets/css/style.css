@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+--primary:#E32A60;
+--black:#000;
+--bg:#faf5ed;
+--white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+ul{
+    list-style:none;
+    padding-left:0;
+    margin-bottom:0
+}
+a{
+    text-decoration:none
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.container, .header-con, .drop-box{
+    max-width:1320px;
+    margin: 0 auto;
+}
+.ptb-70{
+    padding:70px 0
+}
+.ptb-50{
+    padding:50px 0
+}
+.ptb-30{
+    padding:30px 0
+}
+.pt-30{
+    padding-top: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 45px;
+    color: var(--black);
+    font-weight: 800;
+}
+h4 {
+    font-size: 35px;
+    color: var(--black);
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.bg{
+    background-color: var(--bg);
+}
+/* header css start here */
+.site-logo img {
+    width: 300px;
+}
+.nav-bar ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: var(--primary);
+
+}
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.site-logo{
+    background-color: var(--bg);
+}
+.nav-bar{
+    background-color:var(--white);
+    /* box-shadow: rgb(0 0 0 / 11%) 0px 5px 10px 0px; */
+    position: relative;
+}
+.site-logo, .nav-bar {
+    padding: 20px 0;
+}
+.drop-left ul {
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+.drop-menu {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background:var(--bg);
+    width: 100%;
+    padding: 30px 0;
+    display: none;
+}
+.drop-menu.show{
+    display: block;
+}
+.cross {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+/* header css end here */
+
+
+/* banner css start here */
+.site-banner{
+    background-image: url(../images/herobanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+
+
+
+/* bannner css end here */
+
+.welcome-imgs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.welcome-img-1 {
+    height: 49%;
+    width: 100%;
+}
+.welcome-img-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.sub-banner{
+    background-image: url(../images/sub-banner.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.sub-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.sub-banner-txt {
+color: var(--white);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-img{
+    height: 100%;
+    width: 100%;
+}
+.sub-img img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.see-more a {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background: transparent;
+    display: inline-block;
+    width: fit-content;
+    color: var(--primary);
+    margin-top: 30px;
+    border: 1px solid #e32a60;
+    position: relative;
+}
+.see-more a span{
+    position: relative;
+}
+.see-more a::before{
+    content: '';
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+}
+.see-more a:hover{
+    color: var(--white);
+}
+.see-more a:hover::before{
+    width: 100%;
+    transition: all 0.5s linear;
+
+}
+.casino-wrap{
+    display: block;
+    margin-bottom: 70px;
+    /* box-shadow: rgb(100 96 97 / 11%) 0px 1px 10px; */
+    /* background: var(--bg); */
+}
+
+.casino-wrap .welcome-txt {
+    padding: 50px 0;
+}
+.casino-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.bottom-text p {
+    text-align: center;
+}
+/* footer section css start here */
+section.site-footer{
+    background-color: var(--bg);
+    box-shadow: rgb(227 42 96 / 76%) 0px 5px 15px;
+    /* display: none; */
+}
+.footer-logo img {
+    width: 300px;
+}
+.footer-links ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.footer-links ul li a{
+    font-size: 16px;
+    color: var(--black);
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+.footer-links ul li a:hover{
+    color: var(--primary);
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left{
+    width: 25%;
+}
+.footer-right{
+    width: 73%;
+}
+.copy-right p{
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: end;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.copy-right p a{
+    font-weight: 700;
+    color: #000;
+}
+/* footer section css end here */
