@@ -344,6 +344,11 @@ input:focus-visible {
 .privacy-wrap {
     margin-bottom: 20px;
 }
+.privacy-wrap ul{
+    padding-left: 20px;
+    list-style: disc;
+    margin: 10px 0;
+}
 /* footer section css start here */
 section.site-footer{
     background-color: var(--bg);
