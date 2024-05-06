@@ -252,6 +252,81 @@ object-fit: cover;
 .bottom-text p {
     text-align: center;
 }
+.contact-wrap {
+    margin-bottom: 20px;
+}
+/* contact page css start here */
+.form-group {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group input {
+    width: 100%;
+    height: 45px;
+    /* border-radius: 8px; */
+    border: 1px solid #faf5ed;
+    background-color: var(--bg);
+    padding: 10px;
+}
+.form-group textarea {
+    padding: 10px;
+    background-color: var(--bg);
+    border: 1px solid #faf5ed;
+    width: 100%;
+    height: 250px;
+    /* border-radius: 8px; */
+
+}
+.form-group label {
+   margin-bottom: 5px;
+    background: transparent;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+.submit-btn button{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background: transparent;
+    display: inline-block;
+    width: fit-content;
+    color: var(--primary);
+    margin-top: 10px;
+    border: 1px solid #e32a60;
+    position: relative;
+}
+.submit-btn button::before {
+    content: '';
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+}
+.submit-btn button span{
+    position: relative;
+    z-index: 9;
+}
+input:focus-visible {
+    outline-offset: none;
+}
+:focus-visible {
+    outline: none;
+}
+.submit-btn button:hover{
+    color: var(--white);
+}
+.submit-btn button:hover::before{
+    width: 100%;
+    transition: all 0.5s linear;
+}
+.contact-txt p a{
+    color: var(--primary);
+    font-weight: 600;
+}
 /* footer section css start here */
 section.site-footer{
     background-color: var(--bg);
@@ -299,4 +374,5 @@ section.site-footer{
     font-weight: 700;
     color: #000;
 }
+
 /* footer section css end here */
