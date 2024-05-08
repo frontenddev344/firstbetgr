@@ -86,7 +86,9 @@ p{
     font-weight: 600;
     font-family: "Roboto", sans-serif;
     color: var(--primary);
-
+}
+.nav-bar ul li  i{
+    color: var(--primary);
 }
 .nav-bar ul {
     display: flex;
@@ -109,7 +111,7 @@ p{
     gap: 25px;
     align-items: flex-start;
 }
-.drop-menu {
+.drop-menu, .drop-menu2, .drop-menu3{
     position: absolute;
     top: 65px;
     left: 0;
@@ -163,10 +165,15 @@ p{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+}
+.casino-wrap .welcome-img-1 {
+    height: 250px;
+    width: 100%;
 }
 .welcome-img-1 {
-    height: 49%;
+    height: 100%;
     width: 100%;
 }
 .welcome-img-1 img{
@@ -184,6 +191,18 @@ p{
     background-size: cover;
     height: 500px;
     position: relative;
+}
+.contact-banner{
+    background-image: url(../images/contact-us.jpg);
+}
+.destination-banner{
+    background-image: url(../images/destination-banner.jpg);
+}
+.restaurant-banner{
+    background-image: url(../images/resturant-banner.jpg);
+}
+.casino-banner{
+    background-image: url(../images/casino-banner.jpg);
 }
 .sub-banner::before{
     content: '';
@@ -203,6 +222,12 @@ color: var(--white);
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.resturant-welcome .sub-img{
+height: 400px;
+}
+.resturant-welcome .row{
+    align-items: center;
 }
 .sub-img{
     height: 100%;
@@ -253,6 +278,10 @@ object-fit: cover;
     /* box-shadow: rgb(100 96 97 / 11%) 0px 1px 10px; */
     /* background: var(--bg); */
 }
+/* .resturant-welcome {
+    height: 450px;
+    overflow: hidden;
+} */
 
 .casino-wrap .welcome-txt {
     padding: 50px 0;
@@ -398,3 +427,7 @@ section.site-footer{
 }
 
 /* footer section css end here */
+.drop-down .drop-menu.show, .drop-down .drop-menu2.show2, .drop-down .drop-menu3.show3{
+display: block;
+z-index: 9;
+}
