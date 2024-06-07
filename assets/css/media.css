@@ -147,6 +147,15 @@
     .site-logo img {
         width: 220px;
     }
+    section.welcome-sec .row {
+        flex-direction: column;
+    }
+    section.welcome-sec .row .col-md-6{
+        width: 100% ;
+    }
+    .welcome-imgs .sub-img {
+        height: 400px;
+    }
 }
 @media(max-width:850px){
     h3 {
@@ -170,7 +179,14 @@
    
 }
 
+
 @media(max-width:767px){
+
+
+
+    .welcome-imgs .sub-img {
+        height: 350px;
+    }
     .contact-main .row {
         flex-direction: column-reverse;
     }
@@ -207,8 +223,14 @@
         right: 20px;
         font-size: 18px;
     }
+    .banner-wrap img {
+        width: 80%;
+        height: 55vh;
+        object-fit: contain;
+    }
 }
 @media(max-width:575px){
+
     h2 {
         font-size: 28px;
         width: 90%;
